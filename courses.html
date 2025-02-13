@@ -10,6 +10,7 @@
     <div class="form-container">
         <h2>Course Registration Form</h2>
         <form action="" method="POST">
+            <fieldset style="background-color: rgb(166, 138, 128);height: fit-content;width: fit-content;">
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name" required><br><br>
 
@@ -17,12 +18,12 @@
             <input type="email" id="email" name="email" required><br><br>
 
             <label for="course">Select Course:</label>
-            <select id="course" name="course" required><br>
-                <option value="java script fundamentals">java script fundamentals</option><br>
-                <option value="version control">version control</option><br>
-                <option value="Graphic Design">Graphic Design</option><br>
-                <option value="game in vue">game in vue</option><br>
-            </select>
+            <select id="course" name="course" required><br><br>
+                <option value="java script fundamentals">java script fundamentals</option>
+                <option value="version control">version control</option>
+                <option value="Graphic Design">Graphic Design</option>
+                <option value="game in vue">game in vue</option>
+            </select><br><br>
 
             <label for="level">Select Level:</label>
             <select id="level" name="level" required><br>
@@ -34,6 +35,7 @@
             <textarea id="comments" name="comments" rows="4" placeholder="Write any questions or comments here"></textarea><br><br>
 
             <button style="background-color: aqua;" type="submit">Submit Registration</button>
+        </fieldset>
         </form>
     </div>
 
