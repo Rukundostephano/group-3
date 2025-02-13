@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Log in form</title>
 </head>
-<body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form action="login.php" method="post">
-            <div class="input-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="input-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="submit">Login</button>
-        </form>
-        <p>Don't have an account? <a href="register.html">Register here</a></p>
-    </div>
+<body >
+    <center>
+        <h1>Login Form</h1>
+        <fieldset style="display: inline-block ;background-color:rgb(236, 125, 194)">
+            <form action="">
+                   <label>
+                    user  Name<input type="text" placeholder="enter your first name"><br><br>
+                    Last Name<input type="text" placeholder="enter your last name"><br><br>
+                    Email    <input type="email" placeholder="enter your Email"><br><br>
+                    Password<input type="password" placeholder="enter your password"><br><br>
+                    contact number<input type="number" placeholder=""><br><br>
+                    date of birth<input type="date" placeholder=""><br><br>
+                   </label>
+                   <label for="Gender">Gender</label><br><br>
+                   
+                   Male<input type="radio" placeholder=""><br><br>
+                   Female<input type="radio" placeholder=""><br><br>
+               
+                   <button style="background-color: rgb(0, 238, 255);">Login</button>
+            </form>
+        </fieldset>
+    </center>
 </body>
 </html>
