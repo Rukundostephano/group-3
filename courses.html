@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="green">
+    <h1>courses registration form</h1>
+    <div class="form-container">
+        <h2>Course Registration Form</h2>
+        <form action="" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required><br>
+                <option value="java script fundamentals">java script fundamentals</option><br>
+                <option value="version control">version control</option><br>
+                <option value="Graphic Design">Graphic Design</option><br>
+                <option value="game in vue">game in vue</option><br>
+            </select>
+
+            <label for="level">Select Level:</label>
+            <select id="level" name="level" required><br>
+                <option value="Intermediate">Intermediate</option><br>
+                <option value="Advanced">Advanced</option><br>
+            </select>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Write any questions or comments here"></textarea><br><br>
+
+            <button style="background-color: aqua;" type="submit">Submit Registration</button>
+        </form>
+    </div>
+
+</body>
+</html>
