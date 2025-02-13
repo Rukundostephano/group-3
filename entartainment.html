@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment form</title>
+    <style>
+        form{
+            background-color: aqua;
+            border: solidblack;
+            border-radius: 20px;
+        }
+        fieldset{
+            border: solidblack;
+            border-radius: 20px;
+        }
+        h2{
+            background-color: aquamarine
+            ;
+        }
+    </style>
+</head>
+<body><center>
+    <fieldset style="background-color: burlywood;height: fit-content;width: fit-content;">
+    <h2>Entertainment Feedback Form</h2>
+    
+    <form action="#" method="POST">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="event">Type of Event:</label><br>
+        <select id="event" name="event" required>
+            <option value="">Select Event</option>
+            <option value="movie">Movie</option>
+            <option value="concert">Concert</option>
+            <option value="theater">Theater</option>
+            <option value="sports">Sports</option>
+        </select><br><br>
+
+        <label for="rating">Rate the Event (1-5):</label><br>
+        <select id="rating" name="rating" required>
+            <option value="">Select Rating</option>
+            <option value="1">1 - Poor</option>
+            <option value="2">2 - Fair</option>
+            <option value="3">3 - Good</option>
+            <option value="4">4 - Very Good</option>
+            <option value="5">5 - Excellent</option>
+        </select><br><br>
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" placeholder="Write your thoughts here..." required></textarea><br><br>
+
+        
+        <button type="submit">Submit Feedback</button>
+    </form>
+</fieldset> 
+</center>
+</body>
+</html>
