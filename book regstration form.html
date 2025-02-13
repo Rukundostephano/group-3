@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <fieldset style="background-color: bisque;height: fit-content;width: fit-content;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book regstration form</title>
+    <style>
+        fieldset{
+            border: solidblack;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Book Registration Form</h2>
+    
+    <form action="#" method="POST">
+        <!-- Book Title Field -->
+        <label for="title">Book Title:</label><br>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <!-- Author Name Field -->
+        <label for="author">Author Name:</label><br>
+        <input type="text" id="author" name="author" required><br><br>
+
+        <!-- Publication Year Field -->
+        <label for="year">Publication Year:</label><br>
+        <input type="number" id="year" name="year" required><br><br>
+
+        <!-- Genre Dropdown -->
+        <label for="genre">Genre:</label><br>
+        <select id="genre" name="genre" required>
+            <option value="">Select Genre</option>
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-Fiction</option>
+            <option value="mystery">Mystery</option>
+            <option value="science">Science</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="biography">Biography</option>
+        </select><br><br>
+
+        <!-- ISBN Field -->
+        <label for="isbn">ISBN Number:</label><br>
+        <input type="text" id="isbn" name="isbn" required><br><br>
+
+        <!-- Book Description Field -->
+        <label for="description">Book Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50" placeholder="Provide a brief description of the book..." required></textarea><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register Book</button>
+        </form>
+    </fieldset>
+</body>
+</html>
